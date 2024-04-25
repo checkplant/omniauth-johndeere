@@ -5,7 +5,7 @@ require "omniauth/johndeere/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "omniauth-johndeere"
-  spec.version       = Omniauth::johndeere::VERSION
+  spec.version       = Omniauth::Johndeere::VERSION
   spec.authors       = ["Romulo Pereira"]
   spec.email         = ["romuloccomp@gmail.com"]
 
