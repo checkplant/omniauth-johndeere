@@ -6,11 +6,11 @@ require "omniauth/johndeere/version"
 Gem::Specification.new do |spec|
   spec.name          = "omniauth-johndeere"
   spec.version       = Omniauth::Johndeere::VERSION
-  spec.authors       = ["Romulo Pereira"]
+  spec.authors       = ["Romulo Periera"]
   spec.email         = ["romuloccomp@gmail.com"]
 
-  spec.summary       = %q{John Deere Omniatuh2}
-  spec.description   = %q{John Deere Omniatuh2}
+  spec.summary       = %q{Climate John Deere Omniatuh2}
+  spec.description   = %q{Climate John Deere Omniatuh2}
   #spec.homepage      = "TODO: Put your gem's website or public repo URL here."
 
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
