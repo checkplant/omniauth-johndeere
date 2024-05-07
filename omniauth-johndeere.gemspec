@@ -1,4 +1,3 @@
-# coding: utf-8
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "omniauth/johndeere/version"
@@ -11,12 +10,12 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Climate John Deere Omniatuh2}
   spec.description   = %q{Climate John Deere Omniatuh2}
-  #spec.homepage      = "TODO: Put your gem's website or public repo URL here."
 
+  # Modificado aqui para excluir arquivos .gem
   spec.files         = `git ls-files -z`.split("\x0").reject do |f|
-    f.match(%r{^(test|spec|features)/})
+    f.match(%r{^(test|spec|features)/}) || f.end_with?('.gem')
   end
-  
+
   spec.require_paths = ["lib"]
 
   spec.add_runtime_dependency 'omniauth-oauth2', '1.3.1'
